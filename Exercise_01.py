@@ -43,10 +43,10 @@ print(cars.tail(5))
 # 4 . Inspect the entire DataFrame (all rows)! Fill in the gaps!
 pd.options.display.max_rows = 400
 print(cars)
-# Get some meta information on our DataFrame! In which Column do we have missing/NaN Values?
+# 5. Get some meta information on our DataFrame! In which Column do we have missing/NaN Values?
 print(cars.info())
 # We have 6 missing/NaN Values in the column ... horsepower!
 
-# Let´s get some summary statistics on our DataFrame! What is the maximum value in the column horsepower?
+# 6.Let´s get some summary statistics on our DataFrame! What is the maximum value in the column horsepower?
 print(cars.describe())
 # The maximum value in the column horsepower is ... 230!
