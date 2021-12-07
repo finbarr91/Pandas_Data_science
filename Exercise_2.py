@@ -10,7 +10,7 @@ print(cars.iloc[393])
 print(cars["name"])
 
 print(cars.iloc[100,:])
-print(cars.iloc[200]['name'])
+print("Index position 200",cars.iloc[200,8])
 print(cars.iloc[-10:,[0,3,7,8]])
 
 
