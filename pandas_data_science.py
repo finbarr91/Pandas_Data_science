@@ -11,7 +11,7 @@ print("Titanic datatail\n",titanic_df.tail(20))
 print(titanic_df.info()) # to show you the information of the dataset
 
 print(titanic_df.describe()) # To describe the statistical distribution of the numerical columns of the dataset
-print(titanic_df.describe(include="O"))
+print(titanic_df.describe(include="O")) # To include the object datatype on the describe list
 
 print(type(titanic_df))
 print(len(titanic_df))
