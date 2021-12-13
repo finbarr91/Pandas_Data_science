@@ -8,7 +8,7 @@ print(cars)
 print("Info of cars\n", cars.info())
 
 # Select the index (row labels) of the DataFrame cars! What kind of index do we have
-print("Select the index (row labels) of the DataFrame cars\n", type(cars.index))
+print("Select the index (row labels) of the DataFrame cars\n", cars.index)
 
 # Set the "name" column as the new index of cars (save the changes)!
 cars.set_index('name',inplace=True)
